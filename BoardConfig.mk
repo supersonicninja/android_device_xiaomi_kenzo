@@ -207,3 +207,5 @@ WIFI_DRIVER_MODULE_NAME     := "wlan"
 
 # inherit from the proprietary version
 -include vendor/xiaomi/kenzo/BoardConfigVendor.mk
+
+USE_CCACHE :=true
