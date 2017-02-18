@@ -1,19 +1,30 @@
-Copyright 2016 - The CyanogenMod Project.
+#Copyright
+All changes made by @supersonicninja are free to use and modify.
 
-Device Tree for Xiaomi Redmi Note 3 (kenzo)
-===========================================
 
-Basic   | Spec Sheet
--------:|:-------------------------
-CPU     | Quad-core 1.4 GHz Cortex-A53 & Dual-core 1.8 GHz Cortex-A72
-Chipset | Qualcomm MSM8956 Snapdragon 650
-GPU     | Adreno 510
-Memory  | 2GB/3GB DDR3 Dual-channel
-Storage | 16GB/32GB
-MicroSD | Up to 32GB
-Battery | Non-removable Li-Po 4050 mAh battery
-Display | 1920x1080 pixels, 5.5 inches (~401 ppi pixel density)
-Camera  | Primary: 16 MP, f/2.0, phase detection autofocus, dual-LED (dual tone) flash
-	| Secondary: 5 MP, f/2.0, 1080p
+---
 
-![Xiaomi Redmi Note 3](http://cdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-3-1.jpg "Xiaomi Redmi Note 3")
+
+##Setup build environment
+Install Ubuntu 16.04 LTS 64 bit to  a computer with at least 150GB HDD and 4GB RAM.
+
+
+Open the "Terminal" app.
+
+
+Type the following commands and press enter after each line.. You will be prompted for your password.
+
+    sudo add-apt-repository ppa:openjdk-r/ppa  
+    sudo apt-get update
+    sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev ccache libgl1-mesa-dev libxml2-utils xsltproc unzip schedtool openjdk-7-jdk
+    mkdir ~/bin
+    PATH=~/bin:$PATH
+    curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+    chmod a+x ~/bin/repo  
+
+---
+
+
+###Credit
+Thanks to
+@lokjianming
