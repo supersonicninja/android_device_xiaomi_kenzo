@@ -12,7 +12,7 @@ Install Ubuntu 16.04 LTS 64 bit to  a computer with at least 150GB HDD and 4GB R
 Open the "Terminal" app.
 
 
-Type the following commands and press enter after each line.. You will be prompted for your password.
+Type the following commands and press enter after each line. You will be prompted for your password.
 
     sudo add-apt-repository ppa:openjdk-r/ppa  
     sudo apt-get update
@@ -22,9 +22,17 @@ Type the following commands and press enter after each line.. You will be prompt
     curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
     chmod a+x ~/bin/repo  
 
+
+##Download the source
+Type the following commands and press enter after each line. 
+
+
+    mkdir lineage-6.0
+    cd lineage-6.0    
+    repo init -u git://github.com/LineageOS/android.git -b cm-13.0
 ---
 
 
-###Credit
+#Credit
 Thanks to
 @lokjianming
