@@ -44,7 +44,7 @@ Press "Ctrl+H". The hidden ".repo" directory will be visible.
 Open the ".repo" directory and place the "local_manifests" directory in this device tree.
 
 ##Sync and build
-You can do this step every dy to get the nightly builds!
+You can do this step every day to get the nightly builds!
 
 
 Open the ubuntu terminal app.
