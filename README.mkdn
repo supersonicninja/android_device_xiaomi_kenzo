@@ -30,9 +30,45 @@ Type the following commands and press enter after each line.
     mkdir lineage-6.0
     cd lineage-6.0    
     repo init -u git://github.com/LineageOS/android.git -b cm-13.0
+
+
+Open the ubuntu filer.
+
+
+Open the "lineage-6.0" directory.
+
+
+Press "Ctrl+H". The hidden ".repo" directory will be visible.
+
+
+Open the ".repo" directory and place the "local_manifests" directory in this device tree.
+
+##Sync and build
+You can do this step every dy to get the nightly builds!
+
+
+Open the ubuntu terminal app.
+
+
+Type the following commands and press enter after each line. 
+
+
+    repo sync --force-sync
+    mka clobber
+    mka bacon
+
+
+The initial "repo sync" will download over 10GB data and may take a day.
+
+
+The built rom will be at "lineage-6.0/out/target/product/kenzo/lineage-13.0-********-UNOFFICIAL-kenzo.zip"
+
+
 ---
 
 
 #Credit
 Thanks to
+@gizmoZ
 @lokjianming
+@sandymanu

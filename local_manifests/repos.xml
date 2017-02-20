@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- dependencies -->
+
+  <project path="device/xiaomi/kenzo" name="supersonicninja/android_device_xiaomi_kenzo" />
+  <project path="vendor/xiaomi/kenzo" name="supersonicninja/android_vendor_xiaomi_kenzo" />
+  <project path="kernel/xiaomi/msm8956" name="LineageOS/android_kernel_xiaomi_msm8956" />
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" />
+
+</manifest>
